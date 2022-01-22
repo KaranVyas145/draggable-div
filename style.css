@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: blue;
+}
+
+.wrapper{
+    background-color: whitesmoke;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+
+.wrapper header{
+    color: black;
+    font-size: 2rem;
+    padding: 17px 30px;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+}
+
+.wrapper .content{
+    margin: 30px 30px 40px;
+}
